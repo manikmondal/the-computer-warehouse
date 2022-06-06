@@ -1,0 +1,25 @@
+.about-text {
+    margin: 40px;
+}
+
+.about-text h1 {
+    color: gray;
+}
+
+.about {
+    margin: 10px;
+    background-color: rgb(250, 246, 250);
+    border: 3px solid rgb(32, 218, 150);
+    border-radius: 15px;
+
+}
+
+.about h1 {
+    margin: 20px;
+    color: blue;
+}
+
+.about p {
+    color: grey;
+    margin: 20px;
+}

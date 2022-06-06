@@ -1,0 +1,65 @@
+.inventorys-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+    margin: 50px;
+    /* background-color: aliceblue; */
+}
+
+.btn-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+}
+
+/* .product {
+    background-color: rgb(255, 255, 253);
+    width: 340px;
+    height: 600px;
+    border: 3px solid #5fbcf5;
+    border-radius: 20px;
+    position: relative;
+} */
+
+.inventorys-container img {
+    width: 330px;
+    height: 286px;
+    border-radius: 12px;
+    margin: 2px;
+}
+
+.product-info {
+    margin: 0 14px;
+}
+
+.product-info p {
+    margin-bottom: 0;
+    margin-top: 5px;
+}
+
+.product-name {
+    font-family: 'Lato';
+    font-style: normal;
+    color: orangered;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    margin-top: 7px;
+}
+
+.button-icon {
+    color: orange;
+    font-size: 24px;
+}
+
+@media only screen and (max-width:576px) {
+    .inventorys-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media only screen and (min-width: 577px) and (max-width: 992px) {
+    .inventorys-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}

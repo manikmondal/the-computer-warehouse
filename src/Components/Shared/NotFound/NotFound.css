@@ -1,0 +1,23 @@
+.not-found {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 45px;
+    margin: 100px 50px;
+}
+
+.not-found p {
+    font-size: xx-large;
+}
+
+.back-baton {
+    background-color: orange;
+    font-size: x-large;
+    border-radius: 20px 0px 0px 20px;
+    color: blue;
+
+}
+
+.not-found img {
+    height: 300px;
+    width: 500px;
+}
